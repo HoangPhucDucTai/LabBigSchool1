@@ -1,0 +1,21 @@
+﻿@model LabBigSchool_DucTai.Models.Course
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/View/Shared/_Layout.cshtml";
+}
+
+<h2>Create</h2>
+<form>
+    <div class =" from-group">
+        @Html.LabelFor(m => m.Place)
+        @Html.TextBoxFor(m => m.Place, new { @class ="form-control"})
+    </div>
+    <div class="from-group">
+        @Html.LabelFor(m => m.DateTime)
+    </div>
+    <div class="from-group"></div>
+    <div class="from-group"></div>
+    <div class="from-group"></div>
+    <div class="from-group"></div>
+</form>
+
